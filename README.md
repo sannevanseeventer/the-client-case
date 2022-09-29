@@ -1,4 +1,13 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je, zoals altijd, in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+Vini Mini
+
+Userstory 1: Er kunnen vragen worden gesteld aan een gebruiker over zijn / haar Mini. Zo kan er een
+advies worden gegeven over wanneer en in welke hoeveelheid wat voor producten aan het
+kind kunnen worden gegeven.
+
+Userstory 2: Platform bouwen voor persoonlijke omgeving waarin dagboek wordt bijgehouden
+
+
+
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
