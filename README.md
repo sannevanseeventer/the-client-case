@@ -1,4 +1,5 @@
-Vini Mini
+<img width="156" alt="Schermafbeelding 2022-09-29 om 13 38 58" src="https://user-images.githubusercontent.com/112857444/193126088-101fcf85-c8e5-457d-a00f-e862a33249ac.png">
+
 
 Userstory 1: Er kunnen vragen worden gesteld aan een gebruiker over zijn / haar Mini. Zo kan er een
 advies worden gegeven over wanneer en in welke hoeveelheid wat voor producten aan het
