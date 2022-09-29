@@ -6,7 +6,8 @@ kind kunnen worden gegeven.
 
 Userstory 2: Platform bouwen voor persoonlijke omgeving waarin dagboek wordt bijgehouden
 
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je, zoals altijd, in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+
+
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
