@@ -7,7 +7,7 @@
     padding:0;
 }
 
-/* YELLOW BANNER*/
+/* YELLOW BANNER */
 .header {
     min-height: 3em;
     width: 100%;
@@ -60,7 +60,7 @@ nav img{
     font-size: 0.75rem;
 }
 
-/*BACKGROUND*/
+/* BACKGROUND */
 .bg img{
     min-height: 100vh;
     width:100%;
@@ -69,7 +69,7 @@ nav img{
     position: relative;
 }
 
-/*TEST*/
+/* TEST TEXT */
 .test-text{
     width: 90%;
     position: absolute;
@@ -107,6 +107,8 @@ nav img{
     text-align: center;
 }
 
+/* BUTTON TEST */
+
 .button{
     display: inline-block;
     text-decoration: none;
@@ -133,6 +135,8 @@ nav .close{
 nav .menu{
     display:none;
 }
+
+/*RESPONSIVE*/
 
 @media (max-width: 700px){
     .header {
