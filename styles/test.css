@@ -90,6 +90,7 @@ nav img{
     margin-right: 20em;
 }
 
+
 .person:hover{
   color:#72AEA6;
 }
@@ -109,114 +110,102 @@ nav img{
     text-align: center;
 }
 
-.text{
-    margin-top: 8.5em;
+.container{
+    width: 22em;
+    height: 25em;
+    background-color: #fff;
+    margin: 8% auto;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
 }
 
-.hero h1{
+h1{
     color: #72AEA6;
-    margin: 0 auto;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    padding: 1.5em;
 }
 
-.hero h2{
-    width: 60%;
-    margin: 1em auto;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size:1.7rem;
-    color:#fff;
-    text-align:center;
+/* FORM */
+.container form{
+    width: 22em;
+    position: absolute;
+    top: 5em;
+    transition: 0.5s;
 }
 
-.hero h3{
-    width: 60%;
-    margin: 1em auto;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 1.1rem;
+form input{
+    width: 70%;
+    padding: 10px 5px; 
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #b1b1b1;
+    outline: none;
+}
+
+::placeholder{
     color: #152a42;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.btn-box{
     text-align: center;
+    width: 70%;
+    margin: 2em auto;
+    
 }
 
-/* BUTTON TEST */
-
-.button{
-    display: inline-block;
-    text-decoration: none;
-    background-color: #f4eb34;
-    color:#152a42;
+form button{
+    width: 7em;
+    height: 2.5em;
+    margin: 0 10px;
+    background-color:#f4eb34;
+    border-radius: 15px;
     border: none;
-    border-radius: 20px;
-    margin-top: 1em;
-    padding: 0.8em 2em;
-    font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-}
-
-.button:hover{
-    background-color:#fff;
+    outline: none;
     color: #152a42;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* PHONE */
-
-@media (max-width: 700px){
-    .header {
-        min-height: 3em;
-        width: 100vw;
-    }
-
-    p{
-        margin: 1em auto;
-        font-size: 0.7rem;
-        width: 80%;
-    }
-    
-    nav img{
-        width: 80px;
-        margin-top: 0.5em;
-        margin-left: 1em;
-    }
-    
-
-    .text{
-        margin-top: 7em;
-    }
-
-    .hero h1{
-        font-size: 1.6rem;
-    }
-
-    .hero h2{
-        width: 90%;
-        font-size:1.3rem;
-    }
-
-    .hero h2 br{
-      display: none;
-    }
-    
-    .hero h3{
-        width: 70%;
-        margin: 1em auto;
-        font-size: 0.9rem;
-    }
-
+#form2{
+    left: 450px;
 }
 
-/* TABLET */
-
-@media (max-width: 700px){
-
-nav{
-    min-height: 3em;
+#form3{
+    left: 450px;
 }
 
-.nav-links ul li{
-    margin-top: 1em;
+.step-row{
+    width: 22em;
+    height: 2em;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
+    position:relative;
 }
+
+.step-col{
+    width:8em;
+    text-align: center;
+    color:#152a42;
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+}
+
+#progress{
+    position: absolute;
+    height: 100%;
+    width: 8em;
+    background-color: #f4eb34;
+}
+
+.form-control {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.1;
 }

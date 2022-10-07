@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/test.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="scripts/main.js" defer></script>
+    <title>Vini Mini</title>
+</head>
+
+<body>
+    <!-- YELLOW BANNER -->
+    <header class="header">
+        <p>GEEN VERZENDKOSTEN bij aankoop van mijn eerste pinda in 3 of 6 stappen + mijn eerste pinda Opvolgkit</p>
+
+        <!-- NAV + LOGO -->
+        <header class="nav">
+
+            <nav>
+                <a href="index.html"> <img src="assets/logo.png" alt="logo"></a>
+
+                <div class="nav-menu">
+                    <div class="nav-links">
+                        <ul>
+                            <li> <a href="">Voor Mini v</a></li>
+                            <li> <a href="">Producten v</a></li>
+                            <li> <a href="">Over ons v</a></li>
+                            <li> <a href="">Nieuws v</a></li>
+                            <li> <a href="">Contact v</a></li>
+                            <li> <a href="">Zoeken v</a></li>
+                    </div>
+                </div>
+
+                <button class="shoppingcart">
+                    <span class="material-symbols-outlined">
+                        shopping_cart</span></button>
+
+                <button class="person">
+                    <span class="material-symbols-outlined">
+                        person</span>
+                    </ul>
+            </nav>
+
+        </header>
+        <!-- FORM -->
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <form id="form1">
+                        <h1>Hoe heet jouw mini?</h1>
+                        <input type="text" placeholder="Naam" required>
+
+                        <div class="btn-box">
+                            <button type="button" id="volgende1">Volgende</button>
+                        </div>
+                    </form>
+
+                    <form id="form2">
+                        <h1>Geboortedatum?</h1>
+                        <input type="text" placeholder="DD/MM/JJJJ" required>
+
+                        <div class="btn-box">
+                            <button type="button" id="vorige1">Vorige</button>
+                            <button type="button" id="volgende2">Volgende</button>
+                        </div>
+                    </form>
+
+                    <form id="form3">
+                        <h1>Is het je eerste mini?</h1>
+
+                        <label class="check">
+                            <input type="checkbox" name="check" value="Ja">Ja
+                        </label>
+
+                        <label class="check">
+                            <input type="checkbox" name="check" value="Nee"> Nee
+                        </label>
+
+                        <div class="btn-box">
+                            <button type="button" id="vorige2">Vorige</button>
+                            <button type="button">Volgende</button>
+                        </div>
+                    </form>
+
+                    <div class="step-row">
+                        <div id="progress"></div>
+                        <div class="step-col"><small>Stap 1</small></div>
+                        <div class="step-col"><small>Stap 2</small></div>
+                        <div class="step-col"><small>Stap 3</small></div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+</body>
+
+</html>
