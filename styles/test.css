@@ -117,7 +117,7 @@ nav img{
     margin: 8% auto;
     border-radius: 5px;
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 h1{
