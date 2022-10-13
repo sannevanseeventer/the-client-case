@@ -20,14 +20,14 @@ Ouders/verzorgers zullen naar deze pagina gaan als ze interesse hebben in de pro
 <img width="1503" alt="Schermafbeelding 2022-10-13 om 21 45 57" src="https://user-images.githubusercontent.com/112857444/195696123-3b90cce2-ffe1-4854-a383-11d5d92d6818.png">
 <br>
 <br>
-<h2>Testomgeving</h2>
+<h2>Pagina 2</h2>
 Ouders/verzorgers zullen op deze pagina terechtkomen als ze de test willen invullen. Er komen 7 vragen in beeld. Het design is nog een beetje kaal en er moet nog het een en ander aan veranderd worden. 
 <br>
 <br>
 <img width="1505" alt="Schermafbeelding 2022-10-13 om 21 46 40" src="https://user-images.githubusercontent.com/112857444/195696543-774f9b70-a3bf-4851-ac62-52568bfcf922.png">
 <br>
 <br>
-<h2>Uitslag test</h2>
+<h2>Pagina 3</h2>
 Ouders/verzorgers zullen vervolgens op de pagina terechtkomen waar ze gelijk zien welk product de beste keuze is voor zijn/haar mini. Je kan dan ervoor kiezen om het product gelijk te kopen, mar als je verder scrollt kan je kiezen om naar een persoonlijke pagina te gaan met een schema, zodat je weet wanneer en hoe je het product het beste kan geven. Ook is er een optie om tips en recepten te bekijken om het geven van pinda zo makkelijk mogelijk te maken. 
 <br>
 <br>
@@ -45,13 +45,13 @@ Ouders/verzorgers zullen vervolgens op de pagina terechtkomen waar ze gelijk zie
 <li>Label class</li>
 
 <h3>CSS:</h3>
-Display
-Nav
-Hero
+<li>Display</li>
+<li>Nav</li>
+<li>Hero</li>
 
 <h3>JS:</h3>
-AddEventListener
-QuerySelectorAll
+<li>AddEventListener</li>
+<li>QuerySelectorAll</li>
 
 
 ## Bronnen
