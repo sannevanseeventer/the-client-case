@@ -1,36 +1,44 @@
-var form1 = document.getElementById("form1");
-var form2 = document.getElementById("form2");
-var form3 = document.getElementById("form3");
+const multiStepForm = document.querySelector("[data-multi-step]")
+const formSteps = [...multiStepForm.querySelectorAll("[data-step]")]
+let currentStep = formSteps.findIndex(step => {
+  return step.classList.contains("active")
+})
 
-var volgende1 = document.getElementById("volgende1");
-var volgende2 = document.getElementById("volgende2");
-var vorige1 = document.getElementById("vorige1");
-var vorige2 = document.getElementById("vorige2");
-
-var progress = document.getElementById("progress");
-
-volgende1.onclick = function (){
-    form1.style.left = "-400px";
-    form2.style.left = "5px";
-    progress.style.width = "240px";
+if (currentStep < 0) {
+  currentStep = 0
+  showCurrentStep()
 }
 
-vorige1.onclick = function (){
-    form1.style.left = "5px";
-    form2.style.left = "400px";
-    progress.style.width = "120px";
+multiStepForm.addEventListener("click", e => {
+  let incrementor
+  if (e.target.matches("[data-next]")) {
+    incrementor = 1
+  } else if (e.target.matches("[data-previous]")) {
+    incrementor = -1
+  }
+
+  if (incrementor == null) return
+
+  const inputs = [...formSteps[currentStep].querySelectorAll("input")]
+  const allValid = inputs.every(input => input.reportValidity())
+  if (allValid) {
+    currentStep += incrementor
+    showCurrentStep()
+  }
+})
+
+formSteps.forEach(step => {
+  step.addEventListener("animationend", e => {
+    formSteps[currentStep].classList.remove("hide")
+    e.target.classList.toggle("hide", !e.target.classList.contains("active"))
+  })
+})
+
+function showCurrentStep() {
+  formSteps.forEach((step, index) => {
+    step.classList.toggle("active", index === currentStep)
+  })
 }
 
-volgende2.onclick = function (){
-    form2.style.left = "-400px";
-    form3.style.left = "5px";
-    progress.style.width = "360px";
-}
 
-vorige2.onclick = function (){
-    form1.style.left = "-400px";
-    form2.style.left = "5px";
-    form3.style.left = "400px";
-    progress.style.width = "240px";
 
-}

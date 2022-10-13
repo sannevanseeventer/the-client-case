@@ -34,67 +34,159 @@
                 </ul>
             </div>
         </div>
+        <div>
+            <button class="shoppingcart">
+                <span class="material-symbols-outlined">
+                    shopping_cart</span></button>
 
-        <button class="shoppingcart">
-            <span class="material-symbols-outlined">
-                shopping_cart</span></button>
-
-        <button class="person">
-            <span class="material-symbols-outlined">
-                person</span>
+            <button class="person">
+                <span class="material-symbols-outlined">
+                    person</span>
+        </div>
     </nav>
 
     <!-- FORM -->
     <main>
-        <section class="hero">
-            <div class="container">
-                <form id="form1">
-                    <h1>Hoe heet jouw mini?</h1>
-                    <input type="text" placeholder="Naam" required>
+
+        <form data-multi-step class="multi-step-form">
+
+            <div class="card" data-step>
+                <div class="text-container">
+                    <h1 class="step-title">Hoe heet jouw mini?</h1>
+                    <br>
+                    <div class="form-group">
+                        <input type="text" placeholder="Naam">
+                    </div>
 
                     <div class="btn-box">
-                        <button type="button" id="volgende1">Volgende</button>
+                        <button type="button" class="btn" data-next>VOLGENDE</button>
                     </div>
-                </form>
-
-                <form id="form2">
-                    <h1>Geboortedatum?</h1>
-                    <input type="text" placeholder="DD/MM/JJJJ" required>
-
-                    <div class="btn-box">
-                        <button type="button" id="vorige1">Vorige</button>
-                        <button type="button" id="volgende2">Volgende</button>
-                    </div>
-                </form>
-
-                <form id="form3">
-                    <h1>Is het je eerste mini?</h1>
-
-                    <label class="check">
-                        <input type="checkbox" name="check" value="Ja">Ja
-                    </label>
-
-                    <label class="check">
-                        <input type="checkbox" name="check" value="Nee"> Nee
-                    </label>
-
-                    <div class="btn-box">
-                        <button type="button" id="vorige2">Vorige</button>
-                        <button type="button">Volgende</button>
-                    </div>
-                </form>
-
-                <div class="step-row">
-                    <div id="progress"></div>
-                    <div class="step-col"><small>Stap 1</small></div>
-                    <div class="step-col"><small>Stap 2</small></div>
-                    <div class="step-col"><small>Stap 3</small></div>
                 </div>
             </div>
-        </section>
 
+            <div class="card" data-step>
+                <div class="text-container">
+                    <h1 class="step-title">Wat is de geboortedatum van jouw Mini?</h1>
+                    <br>
+                    <div class="form-group">
+                        <input type="text" placeholder="DD/MM/JJJJ">
+                    </div>
+
+                    <div class="btn-box">
+                        <button type="button" class="btn" data-previous>VORIGE</button>
+                        <button type="button" class="btn" data-next>VOLGENDE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-step>
+                <div class="text-container">
+                    <h1 class="step-title">Is het je eerste Mini?</h1>
+                    <br>
+                    <label class="check">
+                        <input type="radio" name="check" checked value="Ja">&nbsp;&nbsp;Ja
+                    </label>
+
+                    <label class="check">
+                        <input type="radio" name="check" value="Nee">&nbsp;&nbsp;Nee
+                    </label>
+                    <div class="btn-box">
+                        <button type="button" class="btn" data-previous>VORIGE</button>
+                        <button type="button" class="btn" data-next>VOLGENDE</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-step>
+                <div class="text-container">
+                    <h1 class="step-title">Hoe oud is jouw Mini?</h1>
+                    <br>
+                    <label class="check">
+                        <input type="radio" name="check" checked value="Ja">&nbsp;&nbsp; < 4 maanden </label>
+
+                            <label class="check">
+                                <input type="radio" name="check" value="Nee">&nbsp;&nbsp; 4 - 6 maanden
+                            </label>
+
+                            <label class="check">
+                                <input type="radio" name="check" value="Ja">&nbsp;&nbsp; 6 - 8 maanden
+                            </label>
+
+                            <label class="check">
+                                <input type="radio" name="check" value="Nee">&nbsp;&nbsp; 8 > maanden
+                            </label>
+                            <div class="btn-box">
+                                <button type="button" class="btn" data-previous>VORIGE</button>
+                                <button type="button" class="btn" data-next>VOLGENDE</button>
+                            </div>
+                </div>
+            </div>
+
+            <div class="card" data-step>
+                <div class="text-container">
+                    <h1 class="step-title">Heeft jouw Mini eerder een acute allergische reactie gehad na het eten?</h1>
+                    <br>
+                    <label class="check">
+                        <input type="radio" name="check" checked value="Ja">&nbsp;&nbsp;Ja
+                    </label>
+
+                    <label class="check">
+                        <input type="radio" name="check" value="Nee">&nbsp;&nbsp;Nee
+                    </label>
+
+                    <label class="check">
+                        <input type="radio" name="check" value="Ja">&nbsp;&nbsp; Weet ik niet
+                    </label>
+                    <div class="btn-box">
+                        <button type="button" class="btn" data-previous>VORIGE</button>
+                        <button type="button" class="btn" data-next>VOLGENDE</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-step>
+                <div class="text-container">
+                    <h1 class="step-title">Heeft jouw Mini eczeem?</h1>
+                    <br>
+                    <label class="check">
+                        <input type="radio" name="check" checked value="Ja">&nbsp;&nbsp;Ja
+                    </label>
+
+                    <label class="check">
+                        <input type="radio" name="check" value="Nee">&nbsp;&nbsp;Nee
+                    </label>
+
+                    <label class="check">
+                        <input type="radio" name="check" value="Ja">&nbsp;&nbsp;Weet ik niet
+                    </label>
+                    <div class="btn-box">
+                        <button type="button" class="btn" data-previous>VORIGE</button>
+                        <button type="button" class="btn" data-next>VOLGENDE</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-step>
+                <div class="text-container">
+                    <h1 class="step-title">Zijn er voedselallergieën in de rest van het gezin?</h1>
+                    <br>
+                    <label class="check">
+                        <input type="radio" name="check" checked value="Ja">&nbsp;&nbsp;Ja
+                    </label>
+
+                    <label class="check">
+                        <input type="radio" name="check" value="Nee">&nbsp;&nbsp;Nee
+                    </label>
+
+                    <div class="btn-box">
+                        <button type="button" class="btn" data-previous>VORIGE</button>
+                        <a href="calender.html">
+                        <button type="button" class="btn">GEREED</button>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </form>
     </main>
-
 </body>
 
 </html>

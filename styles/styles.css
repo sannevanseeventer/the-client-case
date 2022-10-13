@@ -7,12 +7,16 @@
     padding:0;
 }
 
+body{
+    height: 100vh;
+}
+
 /* YELLOW BANNER */
 header {
-    height: 3em;
     width: 100%;
     background-color: #f4eb34;
-    position: fixed;
+    position: relative;
+    padding: 1.2em;
 }
 
 p{
@@ -21,24 +25,22 @@ p{
     font-family: 'Montserrat', sans-serif;
     font-size: 0.88rem;
     font-weight: 300;
-    margin: 1.2em auto;
+    padding: 1.2em auto;
     width: 100%;
 }
 
 /* NAV + LOGO + ICONS*/
 nav{
     display: flex; 
-    justify-content: space-between;
-    align-items: right;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    align-items: center;
     background-color: #fff;
-    height: 11em;
     width: 100vw;
 }
 
 nav img{
     width: 140px;
-    margin-top: 3.2em;
-    margin-left: 10em;
 }
 
 .nav-links{
@@ -49,8 +51,7 @@ nav img{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 20px;
-    margin-top: 5.5em;
+    padding: 1.4em;
     position: relative;
     letter-spacing: 0.1em;
 }
@@ -68,28 +69,18 @@ nav img{
 }
 
 
-.shoppingcart{
+.shoppingcart, .person{
     background-color: transparent;
     border: none;
     color:#152a42;
     position: relative;
-    margin-top: 5em;
-    margin-right: 2.4em;
+    margin-right:2em;
 
 }
 
 .shoppingcart:hover{
     color:#72AEA6;
 
-}
-
-.person{
-    background-color: transparent;
-    border: none;
-    color:#152a42;
-    position: relative;
-    margin-top: 5em;
-    margin-right: 20em;
 }
 
 .person:hover{
@@ -103,44 +94,50 @@ nav img{
 
 /* HERO */
 .hero{
-    min-height: 100vh;
+    max-height: 100%;
     width:100%;
-    background-image: url("../assets/background.png");
+    background-image: url("../assets/background4.png");
     background-size: cover;
     position: absolute;
-    text-align: center;
+    display: flex;
+    overflow-y: none;
 }
 
 .text{
-    margin-top: 8.5em;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 14em 8em;
+    line-height: 2em;
 }
 
 .hero h1{
+    width: 100%;
     color: #72AEA6;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+    text-align: left;
+
 }
 
 .hero h2{
-    width: 60%;
-    margin: 1em auto;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size:1.7rem;
-    color:#fff;
-    text-align:center;
+    font-size:1.4rem;
+    color: #152a42;
+    text-align: left;
 }
 
 .hero h3{
-    width: 60%;
-    margin: 1em auto;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #152a42;
-    text-align: center;
+    text-align: left;
 }
 
 /* BUTTON TEST */
@@ -152,17 +149,18 @@ nav img{
     color:#152a42;
     border: none;
     border-radius: 20px;
-    margin-top: 1em;
-    padding: 0.8em 2em;
+    padding: 0.5em 2em;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    align-self: flex-start;
 }
 
 .button:hover{
-    background-color:#fff;
-    color: #152a42;
+    background-color:#72AEA6;
+    color: #ffffff;
 }
+
 
 /* PHONE */
 
