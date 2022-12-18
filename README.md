@@ -10,7 +10,7 @@ Ontwerp en maak een component / website voor een bedrijf en presenteer het resul
 <h3>Userstory 2:</h3> Platform bouwen voor persoonlijke omgeving waarin dagboek wordt bijgehouden
 
 <h2>Beschrijving</h2>
-Vini Mini heeft als missie om voedselallergie te voorkomen bij baby’s. Hiervoor bieden ze gezonde, makkelijke en betrouwbare voedingssupplementen voor baby’s om te wenne naan bepaalde allergenen. Nu alleen nog voor pinda, maar het doel is om hier ei, noten en andere allergenen aan toe te voegen.
+Vini Mini heeft als missie om voedselallergie te voorkomen bij baby’s. Hiervoor bieden ze gezonde, makkelijke en betrouwbare voedingssupplementen voor baby’s om te wennen aan bepaalde allergenen. Nu alleen nog voor pinda, maar het doel is om hier ei, noten en andere allergenen aan toe te voegen.
 
 
 <h2>Pagina 1</h2>
